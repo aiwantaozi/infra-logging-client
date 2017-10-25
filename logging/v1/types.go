@@ -33,6 +33,9 @@ type Target struct {
 	OutputLogstashPrefix     string `json:"output_logstash_prefix"`
 	OutputLogstashDateformat string `json:"output_logstash_dateformat"`
 	OutputTagKey             string `json:"output_tag_key"` // (optional; default=fluentd)
+	OutputLogstashFormat     bool   `json:"output_logstash_format"`
+	OutputIncludeTagKey      bool   `json:"output_include_tag_key"`
+	OutputFlushInterval      int    `json:"output_flush_interval"`
 }
 
 type Logging struct {
