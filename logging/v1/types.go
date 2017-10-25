@@ -26,7 +26,6 @@ var (
 )
 
 type Target struct {
-	Environment              string `json:"environment"`
 	OutputType               string `json:"output_type"`
 	OutputHost               string `json:"output_host"`
 	OutputPort               int    `json:"output_port"`
