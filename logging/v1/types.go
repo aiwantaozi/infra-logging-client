@@ -26,7 +26,8 @@ var (
 )
 
 type Target struct {
-	OutputType               string `json:"output_type"`
+	TargetType               string `json:"target_type"`
+	OutputTypeName           string `json:"output_type_name"`
 	OutputHost               string `json:"output_host"`
 	OutputPort               int    `json:"output_port"`
 	OutputLogstashPrefix     string `json:"output_logstash_prefix"`
