@@ -25,6 +25,7 @@ const (
 var (
 	SchemeGroupVersion = schema.GroupVersion{Group: GroupName, Version: "v1"}
 	LoggingCRDName     = LoggingResourcePlural + "." + GroupName
+	LoggingAuthCRDName = LoggingAuthResourcePlural + "." + GroupName
 	LabelMaps          = map[string]string{
 		"mylabel": "test",
 	}
